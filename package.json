@@ -1,0 +1,39 @@
+{
+  "name": "node-rdkafka-statsd",
+  "version": "0.1.0",
+  "description": "node-rdkafka event.stats callback that sends rdkafka statistics to statsd.",
+  "main": "lib/rdkafka-statsd.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://gerrit.wikimedia.org/r//node-rdkafka-statsd.git"
+  },
+  "keywords": [
+    "analytics",
+    "kafka",
+    "statsd"
+  ],
+  "author": "Wikimedia Analytics Team <analytics@wikimedia.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://phabricator.wikimedia.org/tag/analytics/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "js-yaml": "^3.5.2",
+    "bunyan": "^1.5.1",
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.5.3",
+    "mocha-jshint": "^2.3.1",
+    "mocha-lcov-reporter": "^1.0.0"
+  },
+  "deploy": {
+    "node": "4.4.6",
+    "dependencies": {
+      "_all": []
+    }
+  }
+}
