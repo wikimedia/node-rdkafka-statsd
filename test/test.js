@@ -455,7 +455,7 @@ describe('Testing object flattening and filtering with default filter function (
 
 
         assert.deepEqual(flat_metrics['simple_cnt'], undefined);
-        assert.deepEqual(flat_metrics['topics.test4.partitions.0.rx_ver_drops'], undefined);
+        assert.deepEqual(flat_metrics['topics.test4.partitions.0.leader'], undefined);
         assert.deepEqual(flat_metrics['topics.test4.partitions.-1.lo_offset'], undefined);
         assert.deepEqual(flat_metrics['topics.test4.partitions.0.stored_offset'], 6143);
 
