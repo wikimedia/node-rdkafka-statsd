@@ -1,6 +1,6 @@
 {
   "name": "node-rdkafka-statsd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "node-rdkafka event.stats callback that sends rdkafka statistics to statsd.",
   "main": "lib/rdkafka-statsd.js",
   "scripts": {
