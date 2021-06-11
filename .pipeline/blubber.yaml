@@ -1,0 +1,12 @@
+version: v4
+base: docker-registry.wikimedia.org/nodejs10-slim
+
+variants:
+  build:
+    base: docker-registry.wikimedia.org/nodejs10-devel
+    copies: [local]
+    node:
+      requirements: [package.json, package-lock.json]
+  test:
+    includes: [build]
+    entrypoint: [npm, test]
